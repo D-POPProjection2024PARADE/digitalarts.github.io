@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>D-POP PROJECTION2024　PARADE</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="デジタルアーツ仙台の卒業制作です">
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<div id="container">
+
+<header>
+<h1 id="logo"><a href="index.html"><img src="images/logo_01.png" alt="Sample Cafe" class="swing"></a></h1>
+</header>
+
+<div id="contents">
+
+<!--メインメニュー-->
+<div id="menubar">
+
+<nav>
+<ul>
+	<li><a href="index.html">ホーム</a></li>
+	<li><a href="Q&A.html">Q＆A</a></li>
+	<li><a href="menu.html">出演者</a>
+		<ul>
+		<li><a href="menu.html#morning">EverBrighteller</a></li>
+		<li><a href="menu.html#lunch">むささび畑</a></li>
+		<li><a href="menu.html#dinner">THE BLDS</a></li>
+		<li><a href="menu.html#dinner">カリカヌル女子子</a></li>
+		<li><a href="menu.html#dinner">O-MENZ</a></li>
+		</ul>
+	
+</li>
+<li><a href="access.html">開催概要</a></li>
+</ul>
+</nav>
+
+</div>
+<!--/#menubar-->
+
+<main>
+
+<section>
+
+<h2>概要</h2>
+
+<table class="ta1">
+<tr>
+<th>主催</th>
+<td>専門学校デジタルアーツ仙台　ミュージックスタッフ科</td>
+</tr>
+<th>会場</th>
+<td>仙台PIT</td>
+</tr>
+<th>時間</th>
+<td>開場　16：00 　　開演　16：55 　　終演19：40頃</td>
+</tr>
+<th>座席</th>
+<td>全席スタンディング・車椅子席あり</td>
+</tr>
+<th>当日券</th>
+<td>15：00から当日券販売ブースにて配布</td>
+</tr>
+<th>物販</th>
+<td>各アーティスト物販あり　時間は追って発表します</td>
+</tr>
+</tr>
+</table>
+
+<h2>アクセス</h2>
+
+<table class="ta1">
+<caption>仙台PIT</caption>
+<tr>
+<th>住所</th>
+<td>〒982-0007 宮城県仙台市太白区あすと長町２丁目２−５０</td>
+</tr>
+<tr>
+<th>最寄駅</th>
+<td>JR・仙台市営地下鉄ともに「長町」駅</td>
+</tr>
+<tr>
+	<th>駐車場</th>
+	<td>駐車場はございません。お近くのコインパーキングにご駐車ください。</td>
+	</tr>
+<tr>
+<th>コインロッカー</th>
+<td>小さいサイズが300円、大きいサイズが600円となります。</td>
+</tr>
+<tr>
+<th>MAP</th>
+<td><br>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25068.951723089394!2d140.86216521487836!3d38.24194824844285!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f8a264ad437e97d%3A0xc3398644f24997df!2z5LuZ5Y-wUElU!5e0!3m2!1sja!2sjp!4v1732170448563!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></iframe></td>
+</tr>
+</table>
+
+</section>
+
+</main>
+
+</div>
+<!--/#contents-->
+
+<footer>
+
+<ul class="icons">
+<li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
+<li><a href="#"><i class="fab fa-line"></i></a></li>
+<li><a href="#"><i class="fab fa-youtube"></i></a></li>
+<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+</ul>
+
+<div id="copyright">
+<small>Copyright&copy; <a href="index.html">Sample Cafe</a> All Rights Reserved.</small>
+<span class="pr"><a href="https://template-party.com/" target="_blank">《Web Design:Template-Party》</a></span>
+</div>
+<!--/#copyright-->
+
+</footer>
+
+</div>
+<!--/#container-->
+
+<!--ページの上部へ戻るボタン-->
+<div class="pagetop"><a href="#"><i class="fas fa-angle-double-up"></i></a></div>
+
+<!--開閉ボタン（ハンバーガーアイコン）-->
+<div id="menubar_hdr">
+<span></span><span></span><span></span>
+</div>
+
+<!--jQueryの読み込み-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<!--スライドショー（slick）-->
+<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="js/slick.js"></script>
+
+<!--パララックス（inview）-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/protonet-jquery.inview/1.1.2/jquery.inview.min.js"></script>
+<script src="js/jquery.inview_set.js"></script>
+
+<!--このテンプレート専用のスクリプト-->
+<script src="js/main.js"></script>
+
+</body>
+</html>
